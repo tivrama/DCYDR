@@ -130,6 +130,7 @@ angular.module('MainCtrl', [])
 
 //---view3-------------------------------------------------------
 
+
   //show $scope.result (var listed above)
   //Only the reset function/button is available on view3
 
