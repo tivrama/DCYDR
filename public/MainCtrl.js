@@ -12,6 +12,20 @@ angular.module('MainCtrl', [])
     result: null
   };
 
+<<<<<<< 83012da1807093e63a96f8ad723d493c0294ca50
+=======
+  // Possible voter object:
+  var dcydrObj = { 
+    voters: $scope.voters,
+    stateView: 1,
+    yes: 0,
+    no: 0,
+    totalVotes: 3,
+    allVotesIn: false,
+    result: null
+  };
+
+>>>>>>> Work on MainCtrl - updated logic for all views
   //Set number of voters to a default of 3.  
   $scope.voters = 3;
   //For displaying result on view3
@@ -129,6 +143,12 @@ angular.module('MainCtrl', [])
 
 
 //---view3-------------------------------------------------------
+<<<<<<< 83012da1807093e63a96f8ad723d493c0294ca50
+=======
+
+  //show $scope.result (var listed above)
+  //Only the reset function/button is available on view3
+>>>>>>> Work on MainCtrl - updated logic for all views
 
   //show $scope.result (var listed above)
   //Only the reset function/button is available on view3
