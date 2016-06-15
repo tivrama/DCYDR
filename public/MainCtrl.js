@@ -150,6 +150,7 @@ angular.module('MainCtrl', [])
   //Only the reset function/button is available on view3
 >>>>>>> Work on MainCtrl - updated logic for all views
 
+
   //show $scope.result (var listed above)
   //Only the reset function/button is available on view3
 
